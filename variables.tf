@@ -14,3 +14,9 @@ variable "ec2tags"{
     type = map(string)
 }
 
+variable "ec2subnet"{
+    type = string
+}
+variable "ec2sggroups"{
+    type = string
+}
