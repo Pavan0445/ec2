@@ -20,6 +20,4 @@ variable "ec2subnetid"{
 variable "ec2sggroups"{
     type = string
 }
-variable "ec2v_vpc"{
-    type = string
-}
+
