@@ -17,4 +17,6 @@ variable "ec2tags"{
 variable "ec2subnetid"{
     type = string
 }
-
+variable "ec2sg"{
+    type = list(string)
+}
