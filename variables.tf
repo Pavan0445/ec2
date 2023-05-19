@@ -18,5 +18,5 @@ variable "ec2subnetid"{
     type = string
 }
 variable "ec2sg"{
-    type = list
+    type = list(map(string))
 }
