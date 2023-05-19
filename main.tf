@@ -5,7 +5,7 @@ resource "aws_instance" "ec2-instance" {
   tags = var.ec2tags
   
   subnet_id = var.ec2subnetid
-  vpc_security_group_ids = var.ec2sggroups
+  
   
 }
 
